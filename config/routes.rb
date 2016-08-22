@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'wishlists/create'
 
   get 'wishlists/show'
@@ -33,17 +34,15 @@ Rails.application.routes.draw do
 
   get 'categories/index'
 
-  get 'users/index'
+  get 'items/new'
+
+  get 'users/new'
 
   get 'items/index'
 
-  get 'items/show'
+  get 'users/index'
 
-  get 'items/create'
-
-  get 'items/update'
-
-  get 'items/delete'
+  root 'users#new'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
