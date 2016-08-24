@@ -1,4 +1,3 @@
-class User < ApplicationRecord
-  attr_accessor :name, :email
+class User < ApplicationRecord 
   has_and_belongs_to_many :items
 end
